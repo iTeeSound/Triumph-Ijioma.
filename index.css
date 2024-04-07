@@ -1,0 +1,29 @@
+/* Defining a CSS selctor */
+:root {
+  --main-text-color: red;
+}
+
+/* Element selector **/
+p {
+  font-weight: bolder;
+  font-display: block;
+}
+ul {
+  font-weight: bolder;
+}
+section {
+  font-weight: bolder;
+}
+
+/** ID selector **/
+#footer {
+  color: var(--main-text-color);
+  font-style: oblique;
+  text-align: center;
+}
+/*** Class selector ***/
+.title {
+  text-decoration: underline;
+  font-weight: 1000;
+  font-size: xx-large;
+}
